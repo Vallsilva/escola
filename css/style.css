@@ -33,3 +33,32 @@ nav a:hover{
     border-radius: 6px;
     background: #575656;
 }
+form label, .input-aluno{
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px 30px;
+    padding: 5px 3px;
+    width: 30%;
+}
+.required:after{
+    content: "*";
+    color: red;
+}
+.cadastrar{
+    width: 20%;
+    margin: 10px 0 0 100px;
+    padding: 15px 0;
+    cursor: pointer;
+    background: #575656;
+    color: black;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    transition: 1s all;
+}
+.cadastrar:hover{
+    background: #0e0d0d;
+    color: azure;
+    transform: scale(1.1);
+}
