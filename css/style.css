@@ -1,0 +1,27 @@
+header{
+    background: #272626;
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: azure;
+}
+nav li{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 40px 60px;
+    position: relative;
+    left: 17%;
+    top: 250px;
+
+}
+.pag li{
+    box-sizing: border-box;
+    border: 3px solid #272626;
+    border-radius: 2px;
+    padding: 5px 5px;
+}
