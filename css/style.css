@@ -9,6 +9,7 @@ h1{
     font-style: italic;
     color: azure;
 }
+
 nav li{
     display: inline;
     font-size: 20px;
@@ -33,7 +34,7 @@ nav a:hover{
     border-radius: 6px;
     background: #575656;
 }
-form label, .input-aluno{
+form label, .input-aluno, .cadastronota{
     display: block;
     font-weight: bold;
     font-size: 15px;
@@ -45,7 +46,7 @@ form label, .input-aluno{
     content: "*";
     color: red;
 }
-.cadastrar{
+.cadastrar, .cadastraN{
     width: 20%;
     margin: 10px 0 0 100px;
     padding: 15px 0;
@@ -58,6 +59,17 @@ form label, .input-aluno{
     transition: 1s all;
 }
 .cadastrar:hover{
+    background: #0e0d0d;
+    color: azure;
+    transform: scale(1.1);
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0 0 20px;
+}
+.cadastraN:hover{
     background: #0e0d0d;
     color: azure;
     transform: scale(1.1);
